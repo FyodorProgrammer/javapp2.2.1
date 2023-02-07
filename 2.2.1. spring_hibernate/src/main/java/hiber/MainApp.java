@@ -39,7 +39,7 @@ public class MainApp {
       System.out.println("-----------------------------------");
 
 
-      List<User> usersForCar = userService.getUserForCar("Model_4", 333);
+      List<User> usersForCar = userService.getUserForCar("Model_4", 444);
       for (User userForCar : usersForCar) {
          System.out.println("Id = "+userForCar.getId());
          System.out.println("First Name = "+userForCar.getFirstName());
